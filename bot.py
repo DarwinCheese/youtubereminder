@@ -12,8 +12,8 @@ bot = commands.Bot(command_prefix='-')
 @bot.event
 async def on_ready():
     print(f'{bot.user.name} has connected to Discord!')
-    await bot.change_presence(activity=discord.Game(name='Simp Game', type=1, url='https://twitch.tv/pokimane'))
-    
+    await bot.change_presence(activity=discord.Game(name='with the Youtube API'))
+
 # Sample commands to look at
 # @bot.command(name='99', help='Responds with a random quote from Brooklyn 99')
 # async def nine_nine(ctx):
